@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/login', function () {
-    return view('welcome');
+    return view('login');
+});
+Route::get('/password', function () {
+    return view('password');
+});
+Route::get('/regrister', function () {
+    return view('regrister');
+});
+Route::get('/crud', function () {
+    return view('crud');
 });
